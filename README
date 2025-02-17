@@ -1,0 +1,5 @@
+This repo contains, projects aimed to demonstrate on MAX10 FPGA (terasic DE10 Lite) development board
+
+List of Projects
+
+1. bcd_count_999 - BCD counter with 7 segment output , counts till 999.
