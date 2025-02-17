@@ -1,11 +1,24 @@
-// bcd counter
+//------------------------------------------------------------------------------
+// author       : Prabakaran Elaiyappan
+// email        : prabakaran_vlsi@yahoo.com
+// create date  : 2025-02-18 00:54:44
+// modify date  : 2025-02-18 00:54:44
+// Module Name  : bcd_counter_999
+// description  : BCD counter with 7 segment decoded output
+//------------------------------------------------------------------------------ 
 
 module bcd_counter_999 (
+        // Global signals
         input logic clk,
         input logic rst,
+
+        // Count enable signal
         input logic cnt_en,
 
+        // 12 bit bcd output 
         output logic [11:0] bcd,
+
+        // output 7 segment enable signals - Not conusmed at the top
         output logic seg0_en,
         output logic seg1_en,
         output logic seg2_en
