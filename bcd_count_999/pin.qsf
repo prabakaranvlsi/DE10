@@ -1,0 +1,30 @@
+set_location_assignment PIN_N5 -to clk
+set_location_assignment PIN_B8 -to rst 
+set_location_assignment PIN_C11 -to en
+
+set_location_assignment PIN_C14 -to seg0[0]
+set_location_assignment PIN_E15 -to seg0[1]
+set_location_assignment PIN_C15 -to seg0[2]
+set_location_assignment PIN_C16 -to seg0[3]
+set_location_assignment PIN_E16 -to seg0[4]
+set_location_assignment PIN_D17 -to seg0[5]
+set_location_assignment PIN_C17 -to seg0[6]
+set_location_assignment PIN_D15 -to seg0[7]
+
+set_location_assignment PIN_C18 -to seg1[0]
+set_location_assignment PIN_D18 -to seg1[1]
+set_location_assignment PIN_E18 -to seg1[2]
+set_location_assignment PIN_B16 -to seg1[3]
+set_location_assignment PIN_A17 -to seg1[4]
+set_location_assignment PIN_A18 -to seg1[5]
+set_location_assignment PIN_B17 -to seg1[6]
+set_location_assignment PIN_A16 -to seg1[7]
+
+set_location_assignment PIN_B20 -to seg2[0]
+set_location_assignment PIN_A20 -to seg2[1]
+set_location_assignment PIN_B19 -to seg2[2]
+set_location_assignment PIN_A21 -to seg2[3]
+set_location_assignment PIN_B21 -to seg2[4]
+set_location_assignment PIN_C22 -to seg2[5]
+set_location_assignment PIN_B22 -to seg2[6]
+set_location_assignment PIN_A19 -to seg2[7]
